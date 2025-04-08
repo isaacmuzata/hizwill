@@ -1,0 +1,10 @@
+
+services:
+  - type: web
+    name: hiz-will-api
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: gunicorn hiz_will_secure_api:app
+    staticPublishPath: ""
+    branch: main
