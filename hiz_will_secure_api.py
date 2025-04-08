@@ -4,7 +4,9 @@ import sqlite3
 import hashlib
 import os
 
-app = Flask(__name__, static_folder='static')@app.route("/")
+app = Flask(_name_, static_folder='static')
+
+@app.route("/")
 def home():
     return "Welcome to Hizwill Medical Charting!"
 DB_PATH = 'hiz_will_system.db'
