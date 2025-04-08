@@ -1,14 +1,1 @@
-[tool.poetry]
-name = "hizwill"
-version = "0.1.0"
-description = "Medical charting system"
-authors = ["Your Name <you@example.com>"]
 
-[tool.poetry.dependencies]
-python = "^3.11"
-flask = "^2.3.0"
-gunicorn = "^21.2.0"
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
